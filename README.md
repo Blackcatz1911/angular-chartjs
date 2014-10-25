@@ -1,4 +1,4 @@
-# angular-chart.js
+# angular-chartjs
 
 Beautiful, reactive, responsive charts for Angular.JS using Chart.js. [Demo](http://jtblin.github.io/angular-chart.js/)
 
@@ -36,7 +36,7 @@ dynamically.
 ## Javascript
 
 ```javascript
-angular.module("app", ["chart.js"]).controller("LineCtrl", ['$scope', '$timeout', function ($scope, $timeout) {
+angular.module("app", ["angular-chartjs"]).controller("LineCtrl", ['$scope', '$timeout', function ($scope, $timeout) {
 
   $scope.labels = ["January", "February", "March", "April", "May", "June", "July"];
   $scope.series = ['Series A', 'Series B'];
